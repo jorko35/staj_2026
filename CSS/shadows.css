@@ -1,0 +1,11 @@
+h1{
+        text-shadow: 3px 2px 5px rebeccapurple, -3px -2px 5px rgb(195, 249, 0);
+
+}
+#box1{
+      width: 100px;
+      height: 100px;
+      background-color: aqua;
+      box-shadow: 3px 2px 5px blue;
+      
+}

@@ -1,0 +1,30 @@
+h1::first-letter{
+    font-size: 2em;
+    color: red;
+    font-style: italic;
+}
+p::first-line{
+    background-color: chartreuse;
+}
+p::selection{
+    color: aquamarine;
+    background-color: purple;
+}
+#list1 li::before{
+    
+}
+#item1::after{
+content: " ╰(*°▽°*)╯";
+}
+#item2::after{
+content: " (●'◡'●)";
+}
+#item3::after{
+content: " ☆*: .｡. o(≧▽≦)o .｡.:*☆";
+}
+#list1 li::marker{
+content: "✓";
+color: rgb(255, 0, 0);
+font-size: 2em;
+
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Georg Google Font";
+    src: url(fonts/Yuyu-Regular.ttf);
+}
+body{
+    background-color: black;
+}
+h1{
+    color: burlywood;
+    font-family: Tahoma, 'Times New Roman';
+    /*borders*/
+    border-style: dotted;
+    border-width: 4px;
+    border-color: red;
+    border-radius: 20px;
+}
+#p1{
+    color: rgb(200,100,0);
+    font-family: "courier new";
+    font-size: 30px;
+     border: 3px solid royalblue;
+}
+#p2{
+    color: #892ab5;
+    font-size: 2em;
+    border-top:3px solid yellow;
+    border-bottom: rgb(255, 255, 255) 3px dotted;
+    border-left: 3px solid green;
+    border-right: 3px blue double;
+}
+#p3{
+    color: hsl(61, 56%, 65%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+#p4{
+    color: aquamarine;
+    font-family: "Georg Google Font";
+    font-size: 2em;
+}

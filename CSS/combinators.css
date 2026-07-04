@@ -1,0 +1,27 @@
+#continer{
+    border: 3px dotted blueviolet;
+}
+#continer  p{
+    background-color: aqua;
+}
+#continer > p{
+    border-bottom: 3px solid red;
+}
+#continer ~ p{
+background-color: hsl(72, 99%, 70%);
+}
+#continer + p{
+border-bottom: 6px solid rgb(47, 78, 0);
+}
+#continer2{
+    border: 3px dotted blueviolet;
+}
+
+/* 
+combinators explain the relationship
+between listed selectors
+  =descendant
+> =child
+~ =general sibling
++ =adjacent sibling  
+*/
