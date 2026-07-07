@@ -1,14 +1,15 @@
 
 
-let index = "0";
+let index = 0;
 
 
-let array= [];
+
 let dictionary={
     "name":["Georg","Hristov"],
     "number":[1,2],
     "bool":[true,false]
 } 
+
 function idDel(idDel){
     console.log("item_"+idDel.toString());
     document.getElementById("item_"+idDel.toString()).remove();
@@ -16,16 +17,20 @@ function idDel(idDel){
 function idEdit(idEdit){
 
 document.getElementById("input_1").value=document.getElementById("text_"+idEdit.toString()).textContent;
+document.getElementById("text_"+idEdit.toString()).style.color="red";
  
 document.getElementById("add_1").onclick=idEdit2;
 document.getElementById("add_1").textContent="edit";
+document.getElementById("add_1").style.backgroundColor = "aqua";
 function idEdit2(){
 if(document.getElementById("input_1").value){
         document.getElementById("text_"+idEdit.toString()).textContent=document.getElementById("input_1").value;
+        document.getElementById("text_"+idEdit.toString()).style.color="black";
         document.getElementById("input_1").value=null;
         
         document.getElementById("add_1").onclick=add;
         document.getElementById("add_1").textContent="add";
+        document.getElementById("add_1").style.backgroundColor = "greenyellow";
 
     }else{
         alert("no text");
